@@ -8,6 +8,7 @@ License: MIT
 License URI: http://opensource.org/licenses/MIT
 
 An ShowHide version of the text widget that supports Text, HTML, CSS, JavaScript, Flash, Shortcodes and PHP with linkable widget title.
+with RichText Format
 
 == Description ==
 
@@ -16,13 +17,10 @@ An ShowHide version of the default text widget where you may have Text, HTML, CS
 = Options =
 
 * Title
-* Title URL
 * Widget CSS class
 * Content supports Text, HTML, CSS, JavaScript, Flash, Shortcodes, and PHP
-* Option to not display a title
-* Option to open Title URL in new window
 * Option to automatically add paragraphs to content
-* Option to not output before/after_widget/title (bare widget)
+* Option to start with open widget
 
 = More Information =
 
@@ -47,6 +45,9 @@ Nothing right now.
 1. Widget options
 
 == Upgrade Notice ==
+
+= 1.01 =
+* New version with Rich Text Format
 
 = 1.0 =
 * First release.

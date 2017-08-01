@@ -1,17 +1,13 @@
 # ShowHide Text Widget
 
-An ShowHide version of the default text widget where you may have Text, HTML, CSS, JavaScript, Flash, Shortcodes and/or PHP as content with linkable widget title.
-
+An ShowHide version of the default text widget with Rich Text Format and html codes
 ## Options
 
 * Title
-* Title URL
 * Widget CSS class
 * Content supports Text, HTML, CSS, JavaScript, Flash, Shortcodes, and PHP
-* Option to not display a title
-* Option to open Title URL in new window
 * Option to automatically add paragraphs to content
-* Option to not output before/after_widget/title (bare widget)
+* Option to start with open widget
 
 ## More Information
 
@@ -32,6 +28,9 @@ An ShowHide version of the default text widget where you may have Text, HTML, CS
 
 ## Upgrade Notice
 
+
+### 1.01 
+* New version with Rich Text Format
 
 ### 1.0
 * First release.
