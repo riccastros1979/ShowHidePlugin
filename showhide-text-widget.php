@@ -3,7 +3,7 @@
 Plugin Name: ShowHide Text Widget
 Plugin URI: http://wordpress.org/plugins/ShowHide-text-widget/
 Description: Description about this plugin.
-Version: 1.01
+Version: 1.02
 Author: BIREME | OPAS | OMS - by Ricardo de Castro
 Author URI: http://rcastro.net.br/
 Text Domain: ShowHidetext
