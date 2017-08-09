@@ -1,14 +1,16 @@
 === ShowHide Text Widget ===
-Contributors: RCastro.net.br
-Tags: widget, clickable, linkable, linked title, text, php, javascript, flash, linked title text, linked, text widget, php widget, link widget title, bare widget, widget shortcodes, ShowHide text, better text widget, simple, html widget, css
+Contributors: ricardodecastro
+Donate link: http://www.msf.org/en/donate
+Tags: widget, text-widget, javascript, showhide, html widget, css
 Requires at least: 3.6
-Tested up to: 4.3
-Stable tag: 1.4.5
+Tested up to: 4.3.11
+Stable tag: 1.02
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
 An ShowHide version of the text widget that supports Text, HTML, CSS, JavaScript, Flash, Shortcodes and PHP with linkable widget title.
 with RichText Format
+If this plugin was useful to you, consider donating a contribution, (not for me!), To Doctors Without Borders http://www.msf.org/en/donate
 
 == Description ==
 
@@ -43,6 +45,14 @@ Nothing right now.
 == Screenshots ==
 
 1. Widget options
+
+== Changelog ==
+
+= 1.02 =
+* Compatible with the content inserted in version 1.0
+
+= 1.0 =
+* First Relase.
 
 == Upgrade Notice ==
 

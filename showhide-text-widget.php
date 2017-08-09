@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: ShowHide Text Widget
-Plugin URI: http://wordpress.org/plugins/ShowHide-text-widget/
-Description: Description about this plugin.
+Plugin URI: https://github.com/riccastros1979/ShowHidePlugin
+Description: An ShowHide version of the text widget that supports Text, HTML, CSS, JavaScript, Flash, Shortcodes and PHP with linkable widget title with RichText Format
 Version: 1.02
-Author: BIREME | OPAS | OMS - by Ricardo de Castro
+Author: Ricardo de Castro for BIREME | OPAS | OMS
 Author URI: http://rcastro.net.br/
 Text Domain: ShowHidetext
 Domain Path: /languages/
