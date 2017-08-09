@@ -46,6 +46,9 @@ Nothing right now.
 
 == Upgrade Notice ==
 
+= 1.02 =
+* Compatible with the content inserted in version 1.0
+
 = 1.01 =
 * New version with Rich Text Format
 

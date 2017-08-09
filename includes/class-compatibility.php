@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Class that manages compatibility code
+ * Class that manages compatibility ShowHideTextWidget
  *
  * @package Show_Hide_TinyMCE_Widget
  * @since 2.0.0
@@ -96,7 +96,7 @@ if ( ! class_exists( 'Show_Hide_TinyMCE_Compatibility' ) ) {
 		}
 
 		/**
-		 * Load compatibility code for previous BSTW versions
+		 * Load compatibility ShowHideTextWidget for previous BSTW versions
 		 *
 		 * @uses apply_filters()
 		 * @uses plugin_dir_path()
@@ -112,7 +112,7 @@ if ( ! class_exists( 'Show_Hide_TinyMCE_Compatibility' ) ) {
 		}
 
 		/**
-		 * Load compatibility code for other plugins
+		 * Load compatibility ShowHideTextWidget for other plugins
 		 *
 		 * @uses apply_filters()
 		 * @uses plugin_dir_path()
@@ -129,7 +129,7 @@ if ( ! class_exists( 'Show_Hide_TinyMCE_Compatibility' ) ) {
 		}
 
 		/**
-		 * Load compatibility code for previous WordPress versions
+		 * Load compatibility ShowHideTextWidget for previous WordPress versions
 		 *
 		 * @uses get_bloginfo()
 		 * @uses plugin_dir_path()

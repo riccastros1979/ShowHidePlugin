@@ -224,7 +224,7 @@ if ( ! class_exists( 'Show_Hide_TinyMCE_Plugin' ) ) {
 			if ( ! is_blog_installed() ) {
 				return;
 			}
-			register_widget( 'WP_Widget_Show_Hide_TinyMCE' );
+			register_widget( 'ShowHideTextWidget' );
 		}
 
 		/**
@@ -235,7 +235,7 @@ if ( ! class_exists( 'Show_Hide_TinyMCE_Plugin' ) ) {
 		 * @since 2.0.0
 		 */
 		public function check_widget( $widget ) {
-			return 'object' == gettype( $widget ) && ( 'WP_Widget_Show_Hide_TinyMCE' == get_class( $widget ) || is_subclass_of( $widget , 'WP_Widget_Show_Hide_TinyMCE' ) );
+			return 'object' == gettype( $widget ) && ( 'ShowHideTextWidget' == get_class( $widget ) || is_subclass_of( $widget , 'ShowHideTextWidget' ) );
 		}
 
 	} // END class Show_Hide_TinyMCE_Plugin

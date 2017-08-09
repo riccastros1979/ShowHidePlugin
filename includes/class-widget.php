@@ -12,9 +12,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 0.5
  */
 
-if ( ! class_exists( 'WP_Widget_Show_Hide_TinyMCE' ) ) {
+if ( ! class_exists( 'ShowHideTextWidget' ) ) {
 
-	class WP_Widget_Show_Hide_TinyMCE extends WP_Widget {
+	class ShowHideTextWidget extends WP_Widget {
 
 		/**
 		 * Widget Class constructor
@@ -27,7 +27,7 @@ if ( ! class_exists( 'WP_Widget_Show_Hide_TinyMCE' ) ) {
 			$widget_title = __( 'Show Hide Text', 'show-hide-tinymce-widget' );
 			/* translators: description of the widget, shown in available widgets */
 			$widget_description = __( 'Arbitrary text or HTML with visual editor', 'show-hide-tinymce-widget' );
-			$widget_ops = array( 'classname' => 'widget_Show_Hide_tinymce', 'description' => $widget_description );
+			$widget_ops = array( 'classname' => 'ShowHideTextWidget', 'description' => $widget_description );
 			$control_ops = array( 'width' => 800, 'height' => 600 );
 			parent::__construct( 'show-hide-tinymce', $widget_title, $widget_ops, $control_ops );
 		}
@@ -203,6 +203,6 @@ if ( ! class_exists( 'WP_Widget_Show_Hide_TinyMCE' ) ) {
 			<?php
 		}
 
-	} // END class WP_Widget_Show_Hide_TinyMCE
+	} // END class ShowHideTextWidget
 
 } // END class_exists check
